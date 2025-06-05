@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Friday Performance Timeline</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+    }
+    #container {
+      width: 2520px;
+    }
+    .timeline-row {
+      position: relative;
+      width: 2520px;
+      height: 28px;
+      margin-bottom: 8px;
+      background-color: white;
+      transition: opacity 0.3s;
+      opacity: 0.4;
+    }
+    .timeline-row.faded {
+      opacity: 0.4;
+      pointer-events: auto;
+    }
+    .timeline-row.active {
+      opacity: 1;
+    }
+    #container.hide-faded .timeline-row:not(.active):not(:has(.label-tag)) {
+      display: none;
+    }
+    .bar {
+      position: absolute;
+      height: 100%;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 6px;
+      color: white;
+      font-size: 12px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      cursor: pointer;
+      user-select: none;
+    }
+    .time-label {
+      position: absolute;
+      top: 0;
+      font-size: 11px;
+      color: #333;
+      white-space: nowrap;
+      z-index: 10;
+    }
+    .time-label.start {
+      right: 100%;
+      margin-right: 20px;
+      margin-top: 5px;
+      margin-left: -35px;
+    }
+    .time-label.end {
+      margin-top: 5px;
+      left: 100%;
+      margin-left: 15px;
+    }
+    #toggleHideBtn {
+      margin-bottom: 20px;
+      padding: 8px 12px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+    #legend {
+      margin-bottom: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .legend-item {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      user-select: none;
+    }
+    .color-box {
+      width: 20px;
+      height: 20px;
+      margin-right: 6px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    .label-tag {
+      position: absolute;
+      height: 20px;
+      line-height: 20px;
+      padding: 0 8px;
+      color: white;
+      font-size: 11px;
+      border-radius: 4px;
+      white-space: nowrap;
+      margin-left: 2px;
+    }
+    #dayButtons {
+      margin-bottom: 15px;
+    }
+    #dayButtons button {
+      margin-right: 8px;
+      padding: 6px 12px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+    #dayButtons button.active {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Performances (11:00 AM – 3:00 AM)</h2>
+
+<div id="dayButtons">
+  <button data-day="THURSDAY">Thursday</button>
+  <button data-day="FRIDAY" class="active">Friday</button>
+  <button data-day="SATURDAY">Saturday</button>
+  <button data-day="SUNDAY">Sunday</button>
+</div>
+
+<img src="map.png" alt="Stage Map" style="max-width: 100%; height: auto; margin-bottom: 20px;" />
+
+<div id="legend"></div>
+
+<div style="margin-bottom: 10px;">
+  <label>
+    Pick a color: <input type="color" id="colorPicker" value="#007bff">
+  </label>
+  <label style="margin-left: 10px;">
+    Enter Name: <input type="text" id="textInput" placeholder="Your Name">
+  </label>
+  <button id="copyButton">Copy Data</button>
+</div>
+
+<div style="margin-bottom: 20px;">
+  <label>
+    Paste Data: <input type="text" id="importInput" style="width: 300px;" placeholder="Bob-#ff0000-Blur,Justice">
+  </label>
+  <button id="clearButton">Clear</button>
+  <button id="importButton">Apply</button>
+</div>
+
+<button id="toggleHideBtn">Hide faded rows: OFF</button>
+
+<p>How to use:
+  <br>
+  Click the rows you are interested in to toggle them on, then press the Hide button to see only the ones you are interested in.
+  <br>
+  You can also choose your name and color, then press 'copy' and paste this info into the box to share and compare with others.
+  <br>
+  Click a name to remove it.
+</p>
+
+<div id="container"></div>
+
+<script>
+  const START_MIN = 11 * 60;
+  const END_MIN = 3 * 60 + 1440;
+  const SCALE = 3;
+  const stageColors = {
+    "pyramid": "#007bff",
+    "other": "#28a745",
+    "west holts": "#ff5722",
+    "woodsies": "#9c27b0",
+    "park stage": "#ff9800",
+    "acoustic stage": "#00bcd4",
+    "avalon": "#795548",
+    "left field": "#673ab7",
+    "arcadia": "#e91e63",
+    "levels": "#3f51b5",
+    "glade": "#009688",
+    "lonely hearts club": "#f783c7"
+  };
+
+  const container = document.getElementById('container');
+  const toggleHideBtn = document.getElementById('toggleHideBtn');
+  const legend = document.getElementById('legend');
+  const activeIDs = new Set();
+  let rowMap = {};
+  let artistMap = {};
+
+  let allData = null;
+  let currentDay = 'FRIDAY';
+
+  const presetColors = [
+    '#007bff', // blue
+    '#28a745', // green
+    '#ff5722', // orange/red
+    '#9c27b0', // purple
+    '#ff9800', // amber
+    '#00bcd4', // cyan
+    '#795548', // brown
+    '#673ab7', // deep purple
+    '#e91e63', // pink
+    '#3f51b5', // indigo
+    '#009688', // teal
+    '#f783c7'  // pink/light purple
+  ];
+
+  const colorPicker = document.getElementById('colorPicker');
+  const randomIndex = Math.floor(Math.random() * presetColors.length);
+  colorPicker.value = presetColors[randomIndex];
+
+  function timeToMinutes(t) {
+    const [h, m] = t.split(':').map(Number);
+    return h * 60 + m;
+  }
+
+  function renderLegend() {
+    legend.innerHTML = '';
+    for (const [stage, color] of Object.entries(stageColors)) {
+      const item = document.createElement('div');
+      item.className = 'legend-item';
+      const box = document.createElement('div');
+      box.className = 'color-box';
+      box.style.backgroundColor = color;
+      const label = document.createElement('span');
+      label.textContent = stage.charAt(0).toUpperCase() + stage.slice(1);
+      item.appendChild(box);
+      item.appendChild(label);
+      legend.appendChild(item);
+    }
+  }
+
+  function clearTimeline() {
+    container.innerHTML = '';
+    activeIDs.clear();
+    rowMap = {};
+    artistMap = {};
+  }
+
+  function renderTimeline(day) {
+    clearTimeline();
+    currentDay = day;
+
+    // Filter & map data for the chosen day
+    const dayData = allData
+      .filter(d => d.day.toUpperCase() === day)
+      .map(d => ({
+        ...d,
+        stageKey: d.stage.toLowerCase(),
+        startMin: timeToMinutes(d.start) < START_MIN ? timeToMinutes(d.start) + 1440 : timeToMinutes(d.start),
+        endMin: timeToMinutes(d.end) < START_MIN ? timeToMinutes(d.end) + 1440 : timeToMinutes(d.end)
+      }))
+      .filter(d => d.endMin > START_MIN && d.startMin < END_MIN)
+      .sort((a, b) => a.startMin - b.startMin);
+
+    dayData.forEach(item => {
+      const startOffset = Math.max(item.startMin - START_MIN, 0) * SCALE;
+      const duration = (Math.min(item.endMin, END_MIN) - Math.max(item.startMin, START_MIN)) * SCALE;
+
+      const row = document.createElement('div');
+      row.className = 'timeline-row faded';
+      row.dataset.id = item.id;
+      rowMap[item.id] = row;
+      artistMap[item.artist.toLowerCase()] = row;
+
+      const bar = document.createElement('div');
+      bar.className = 'bar';
+      bar.style.left = `${startOffset}px`;
+      bar.style.width = `${duration}px`;
+      bar.style.backgroundColor = stageColors[item.stageKey] || "#555";
+      bar.textContent = item.artist;
+
+      const startLabel = document.createElement('div');
+      startLabel.className = 'time-label start';
+      startLabel.style.left = `${startOffset}px`;
+      startLabel.textContent = item.start;
+
+      const endLabel = document.createElement('div');
+      endLabel.className = 'time-label end';
+      endLabel.style.left = `${startOffset + duration}px`;
+      endLabel.textContent = item.end;
+
+      bar.addEventListener('click', () => {
+  const id = item.id;
+  const labelInput = document.getElementById('textInput');
+  const labelName = labelInput.value.trim();
+  if (!labelName) {
+    alert('Please enter a name in the input box to show labels.');
+    return;
+  }
+
+  if (row.classList.contains('active')) {
+    // Remove active class and label tag
+    row.classList.remove('active');
+    row.classList.add('faded');
+    activeIDs.delete(id);
+
+    // Remove label tag with that name if exists
+    const existingTag = row.querySelector(`.label-tag[data-label="${labelName}"]`);
+    if (existingTag) {
+      existingTag.remove();
+    }
+  } else {
+    // Add active class
+    row.classList.add('active');
+    row.classList.remove('faded');
+    activeIDs.add(id);
+
+    // Add label tag if not present
+    if (!row.querySelector(`.label-tag[data-label="${labelName}"]`)) {
+      const tag = document.createElement('div');
+      tag.className = 'label-tag';
+      tag.textContent = labelName;
+      tag.style.backgroundColor = document.getElementById('colorPicker').value;
+      tag.dataset.label = labelName;
+
+      tag.addEventListener('click', (e) => {
+        e.stopPropagation();
+        tag.remove();
+      });
+
+      // Position the label tag
+      const bar = row.querySelector('.bar');
+      const existingTags = row.querySelectorAll('.label-tag');
+      const baseLeft = bar.offsetLeft + bar.offsetWidth + 5;
+      let totalOffset = 0;
+      existingTags.forEach(t => totalOffset += t.offsetWidth + 2);
+
+      tag.style.left = `${baseLeft + 35}px`;
+      row.appendChild(tag);
+    }
+  }
+});
+
+      row.appendChild(startLabel);
+      row.appendChild(bar);
+      row.appendChild(endLabel);
+      container.appendChild(row);
+    });
+  }
+
+  // Load data and initialize
+  fetch('data.json')
+    .then(res => res.json())
+    .then(data => {
+      allData = data;
+      renderLegend();
+      renderTimeline(currentDay);
+    });
+
+  toggleHideBtn.addEventListener('click', () => {
+    container.classList.toggle('hide-faded');
+    toggleHideBtn.textContent = container.classList.contains('hide-faded')
+      ? 'Hide faded rows: ON'
+      : 'Hide faded rows: OFF';
+  });
+
+  document.getElementById('copyButton').addEventListener('click', () => {
+    const color = document.getElementById('colorPicker').value;
+    const label = document.getElementById('textInput').value.trim();
+    if (!label) return alert('Please enter a label.');
+
+    const artistNames = Array.from(activeIDs)
+      .map(id => {
+        const row = rowMap[id];
+        if (!row) return null;
+        const bar = row.querySelector('.bar');
+        return bar ? bar.textContent : null;
+      })
+      .filter(Boolean)
+      .join('&&');
+
+    const combined = `${label}-${color}-${artistNames}`;
+    navigator.clipboard.writeText(combined).catch(err => alert('Failed to copy'));
+  });
+
+  document.getElementById('clearButton').addEventListener('click', () => {
+    document.getElementById('importInput').value = '';
+  });
+
+  document.getElementById('importButton').addEventListener('click', () => {
+    const value = document.getElementById('importInput').value.trim();
+    if (!value) return;
+
+    const match = value.match(/^(.+)-(#(?:[0-9a-fA-F]{6}))-(.+)$/);
+    if (!match) {
+      alert('Invalid format. Use: name-#hex-artist&&artist2');
+      return;
+    }
+
+    const [, label, color, artistList] = match;
+    const artistNames = artistList.split('&&').map(n => n.trim().toLowerCase());
+
+    artistNames.forEach(name => {
+      const row = artistMap[name];
+      if (!row) return;
+
+      const bar = row.querySelector('.bar');
+      if (!bar) return;
+
+      if (row.querySelector(`.label-tag[data-label="${label}"]`)) return;
+
+      const tag = document.createElement('div');
+      tag.className = 'label-tag';
+      tag.textContent = label;
+      tag.style.backgroundColor = color;
+      tag.dataset.label = label;
+
+      tag.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const allTags = document.querySelectorAll(`.label-tag[data-label="${label}"]`);
+        allTags.forEach(t => t.remove());
+      });
+
+      const existingTags = row.querySelectorAll('.label-tag');
+      const baseLeft = bar.offsetLeft + bar.offsetWidth + 5;
+      let totalOffset = 0;
+      existingTags.forEach(t => totalOffset += t.offsetWidth + 2);
+
+      tag.style.left = `${baseLeft + 35 + totalOffset}px`;
+      row.appendChild(tag);
+    });
+  });
+
+  // Day buttons event
+  const dayButtons = document.querySelectorAll('#dayButtons button');
+  dayButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      if (btn.classList.contains('active')) return; // no change
+
+      dayButtons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      renderTimeline(btn.dataset.day);
+    });
+  });
+</script>
+
+</body>
+</html>
