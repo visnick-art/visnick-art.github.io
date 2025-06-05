@@ -12,14 +12,14 @@
       width: 2520px;
     }
     .timeline-row {
-      position: relative;
-      width: 2520px;
-      height: 28px;
-      margin-bottom: 8px;
-      background-color: white;
-      transition: opacity 0.3s;
-      opacity: 0.4;
-    }
+  position: relative;
+  width: 2520px;
+  height: 56px; /* doubled */
+  margin-bottom: 8px;
+  background-color: white;
+  transition: opacity 0.3s;
+  opacity: 0.4;
+}
     .timeline-row.faded {
       opacity: 0.4;
       pointer-events: auto;
@@ -31,21 +31,21 @@
       display: none;
     }
     .bar {
-      position: absolute;
-      height: 100%;
-      border-radius: 4px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 0 6px;
-      color: white;
-      font-size: 11px;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      cursor: pointer;
-      user-select: none;
-    }
+        cursor: pointer;
+  position: absolute;
+  height: 100%;
+  border-radius: 4px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 4px 6px;
+  color: white;
+  font-size: 10px;
+  line-height: 1;
+  white-space: normal;
+       /* <— forces wrap mid-word */     /* <— also helps with aggressive wrapping */
+  overflow: hidden;
+}
     .time-label {
       position: absolute;
       top: 0;
@@ -139,7 +139,7 @@
     Pick a color: <input type="color" id="colorPicker" value="#007bff">
   </label>
   <label style="margin-left: 10px;">
-    Enter Name: <input type="text" id="textInput" placeholder="Your Name">
+    Enter Name: <input type="text" id="textInput" value="Your Name" placeholder="Your Name">
   </label>
   <button id="copyButton">Copy Data</button>
 </div>
@@ -154,7 +154,7 @@
 
 <button id="toggleHideBtn">Hide faded rows: OFF</button>
 
-<p>How to use:
+<p style="font-size: 1rem">How to use:
   <br>
   Click the rows you are interested in to toggle them on, then press the Hide button to see only the ones you are interested in.
   <br>
@@ -167,8 +167,8 @@
 
 <script>
   const START_MIN = 11 * 60;
-  const END_MIN = 1.5 * 60 + 1440;
-  const SCALE = 1.5;
+  const END_MIN = 1 * 60 + 1440;
+  const SCALE = 1;
   const stageColors = {
     "pyramid": "#007bff",
     "other": "#28a745",
