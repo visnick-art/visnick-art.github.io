@@ -1,0 +1,2698 @@
+[
+    {
+        "id": 0,
+        "stage": "pyramid",
+        "day": "FRIDAY",
+        "artist": "THE 1975",
+        "start": "22:15",
+        "end": "23:45"
+    },
+    {
+        "id": 1,
+        "stage": "pyramid",
+        "day": "FRIDAY",
+        "artist": "BIFFY CLYRO",
+        "start": "20:15",
+        "end": "21:15"
+    },
+    {
+        "id": 2,
+        "stage": "pyramid",
+        "day": "FRIDAY",
+        "artist": "ALANIS MORISSETTE",
+        "start": "18:15",
+        "end": "19:15"
+    },
+    {
+        "id": 3,
+        "stage": "pyramid",
+        "day": "FRIDAY",
+        "artist": "TBA",
+        "start": "16:55",
+        "end": "17:30"
+    },
+    {
+        "id": 4,
+        "stage": "pyramid",
+        "day": "FRIDAY",
+        "artist": "BURNING SPEAR",
+        "start": "15:00",
+        "end": "16:00"
+    },
+    {
+        "id": 5,
+        "stage": "pyramid",
+        "day": "FRIDAY",
+        "artist": "CMAT",
+        "start": "13:30",
+        "end": "14:30"
+    },
+    {
+        "id": 6,
+        "stage": "pyramid",
+        "day": "FRIDAY",
+        "artist": "SUPERGRASS",
+        "start": "12:00",
+        "end": "13:00"
+    },
+    {
+        "id": 7,
+        "stage": "pyramid",
+        "day": "SATURDAY",
+        "artist": "NEIL YOUNG AND THE CHROME HEARTS",
+        "start": "22:00",
+        "end": "23:45"
+    },
+    {
+        "id": 8,
+        "stage": "pyramid",
+        "day": "SATURDAY",
+        "artist": "RAYE",
+        "start": "20:00",
+        "end": "21:00"
+    },
+    {
+        "id": 9,
+        "stage": "pyramid",
+        "day": "SATURDAY",
+        "artist": "PATCHWORK",
+        "start": "18:15",
+        "end": "19:15"
+    },
+    {
+        "id": 10,
+        "stage": "pyramid",
+        "day": "SATURDAY",
+        "artist": "JOHN FOGERTY",
+        "start": "16:30",
+        "end": "17:30"
+    },
+    {
+        "id": 11,
+        "stage": "pyramid",
+        "day": "SATURDAY",
+        "artist": "THE SCRIPT",
+        "start": "15:00",
+        "end": "16:00"
+    },
+    {
+        "id": 12,
+        "stage": "pyramid",
+        "day": "SATURDAY",
+        "artist": "BRANDI CARLILE",
+        "start": "13:30",
+        "end": "14:30"
+    },
+    {
+        "id": 13,
+        "stage": "pyramid",
+        "day": "SATURDAY",
+        "artist": "KAISER CHIEFS",
+        "start": "12:00",
+        "end": "13:00"
+    },
+    {
+        "id": 14,
+        "stage": "pyramid",
+        "day": "SUNDAY",
+        "artist": "OLIVIA RODRIGO",
+        "start": "21:45",
+        "end": "23:15"
+    },
+    {
+        "id": 15,
+        "stage": "pyramid",
+        "day": "SUNDAY",
+        "artist": "NOAH KAHAN",
+        "start": "19:45",
+        "end": "20:45"
+    },
+    {
+        "id": 16,
+        "stage": "pyramid",
+        "day": "SUNDAY",
+        "artist": "NILE RODGERS & CHIC",
+        "start": "18:00",
+        "end": "19:00"
+    },
+    {
+        "id": 17,
+        "stage": "pyramid",
+        "day": "SUNDAY",
+        "artist": "ROD STEWART",
+        "start": "15:45",
+        "end": "17:15"
+    },
+    {
+        "id": 18,
+        "stage": "pyramid",
+        "day": "SUNDAY",
+        "artist": "THE LIBERTINES",
+        "start": "14:00",
+        "end": "15:00"
+    },
+    {
+        "id": 19,
+        "stage": "pyramid",
+        "day": "SUNDAY",
+        "artist": "CELESTE",
+        "start": "12:30",
+        "end": "13:30"
+    },
+    {
+        "id": 20,
+        "stage": "pyramid",
+        "day": "SUNDAY",
+        "artist": "THE SELECTER",
+        "start": "11:15",
+        "end": "12:00"
+    },
+    {
+        "id": 21,
+        "stage": "Other",
+        "day": "FRIDAY",
+        "artist": "LOYLE CARNER",
+        "start": "22:30",
+        "end": "23:45"
+    },
+    {
+        "id": 22,
+        "stage": "Other",
+        "day": "FRIDAY",
+        "artist": "BUSTA RHYMES",
+        "start": "20:30",
+        "end": "21:30"
+    },
+    {
+        "id": 23,
+        "stage": "Other",
+        "day": "FRIDAY",
+        "artist": "GRACIE ABRAMS",
+        "start": "18:45",
+        "end": "19:45"
+    },
+    {
+        "id": 24,
+        "stage": "Other",
+        "day": "FRIDAY",
+        "artist": "FRANZ FERDINAND",
+        "start": "17:15",
+        "end": "18:15"
+    },
+    {
+        "id": 25,
+        "stage": "Other",
+        "day": "FRIDAY",
+        "artist": "WET LEG",
+        "start": "15:45",
+        "end": "16:45"
+    },
+    {
+        "id": 26,
+        "stage": "Other",
+        "day": "FRIDAY",
+        "artist": "INHALER",
+        "start": "14:15",
+        "end": "15:15"
+    },
+    {
+        "id": 27,
+        "stage": "Other",
+        "day": "FRIDAY",
+        "artist": "RIZZLE KICKS",
+        "start": "13:00",
+        "end": "13:45"
+    },
+    {
+        "id": 28,
+        "stage": "Other",
+        "day": "FRIDAY",
+        "artist": "FABIO & GROOVERIDER AND THE OUTLOOK ORCHESTRA",
+        "start": "11:30",
+        "end": "12:30"
+    },
+    {
+        "id": 29,
+        "stage": "Other",
+        "day": "SATURDAY",
+        "artist": "CHARLI XCX",
+        "start": "22:30",
+        "end": "23:45"
+    },
+    {
+        "id": 30,
+        "stage": "Other",
+        "day": "SATURDAY",
+        "artist": "DEFTONES",
+        "start": "20:30",
+        "end": "21:30"
+    },
+    {
+        "id": 31,
+        "stage": "Other",
+        "day": "SATURDAY",
+        "artist": "EZRA COLLECTIVE",
+        "start": "18:45",
+        "end": "19:45"
+    },
+    {
+        "id": 32,
+        "stage": "Other",
+        "day": "SATURDAY",
+        "artist": "AMYL & THE SNIFFERS",
+        "start": "17:00",
+        "end": "18:00"
+    },
+    {
+        "id": 33,
+        "stage": "Other",
+        "day": "SATURDAY",
+        "artist": "WEEZER",
+        "start": "15:30",
+        "end": "16:30"
+    },
+    {
+        "id": 34,
+        "stage": "Other",
+        "day": "SATURDAY",
+        "artist": "BEABADOOBEE",
+        "start": "14:00",
+        "end": "15:00"
+    },
+    {
+        "id": 35,
+        "stage": "Other",
+        "day": "SATURDAY",
+        "artist": "GOOD NEIGHBOURS",
+        "start": "12:45",
+        "end": "13:30"
+    },
+    {
+        "id": 36,
+        "stage": "Other",
+        "day": "SATURDAY",
+        "artist": "ALESSI ROSE",
+        "start": "11:30",
+        "end": "12:15"
+    },
+    {
+        "id": 37,
+        "stage": "Other",
+        "day": "SUNDAY",
+        "artist": "THE PRODIGY",
+        "start": "21:45",
+        "end": "23:15"
+    },
+    {
+        "id": 38,
+        "stage": "Other",
+        "day": "SUNDAY",
+        "artist": "WOLF ALICE",
+        "start": "19:45",
+        "end": "20:45"
+    },
+    {
+        "id": 39,
+        "stage": "Other",
+        "day": "SUNDAY",
+        "artist": "SNOW PATROL",
+        "start": "18:00",
+        "end": "19:00"
+    },
+    {
+        "id": 40,
+        "stage": "Other",
+        "day": "SUNDAY",
+        "artist": "TURNSTILE",
+        "start": "16:30",
+        "end": "17:30"
+    },
+    {
+        "id": 41,
+        "stage": "Other",
+        "day": "SUNDAY",
+        "artist": "JOY CROOKES",
+        "start": "15:00",
+        "end": "15:45"
+    },
+    {
+        "id": 42,
+        "stage": "Other",
+        "day": "SUNDAY",
+        "artist": "SHABOOZEY",
+        "start": "13:45",
+        "end": "14:30"
+    },
+    {
+        "id": 43,
+        "stage": "Other",
+        "day": "SUNDAY",
+        "artist": "NADINE SHAH",
+        "start": "12:30",
+        "end": "13:15"
+    },
+    {
+        "id": 44,
+        "stage": "Other",
+        "day": "SUNDAY",
+        "artist": "LOUIS DUNFORD",
+        "start": "11:15",
+        "end": "12:00"
+    },
+    {
+        "id": 45,
+        "stage": "West Holts",
+        "day": "FRIDAY",
+        "artist": "MARIBOU STATE",
+        "start": "22:15",
+        "end": "23:45"
+    },
+    {
+        "id": 46,
+        "stage": "West Holts",
+        "day": "FRIDAY",
+        "artist": "BADBADNOTGOOD",
+        "start": "20:30",
+        "end": "21:30"
+    },
+    {
+        "id": 47,
+        "stage": "West Holts",
+        "day": "FRIDAY",
+        "artist": "DENZEL CURRY",
+        "start": "19:00",
+        "end": "20:00"
+    },
+    {
+        "id": 48,
+        "stage": "West Holts",
+        "day": "FRIDAY",
+        "artist": "EN VOGUE",
+        "start": "17:30",
+        "end": "18:30"
+    },
+    {
+        "id": 49,
+        "stage": "West Holts",
+        "day": "FRIDAY",
+        "artist": "VIEUX FARKA TOURE",
+        "start": "16:00",
+        "end": "17:00"
+    },
+    {
+        "id": 50,
+        "stage": "West Holts",
+        "day": "FRIDAY",
+        "artist": "GLASS BEAMS",
+        "start": "14:30",
+        "end": "15:25"
+    },
+    {
+        "id": 51,
+        "stage": "West Holts",
+        "day": "FRIDAY",
+        "artist": "CA7RIEL & PACO AMOROSO",
+        "start": "13:00",
+        "end": "14:00"
+    },
+    {
+        "id": 52,
+        "stage": "West Holts",
+        "day": "FRIDAY",
+        "artist": "CORTO.ALTO",
+        "start": "11:30",
+        "end": "12:30"
+    },
+    {
+        "id": 53,
+        "stage": "West Holts",
+        "day": "SATURDAY",
+        "artist": "DOECHII",
+        "start": "22:15",
+        "end": "23:45"
+    },
+    {
+        "id": 54,
+        "stage": "West Holts",
+        "day": "SATURDAY",
+        "artist": "AMAARAE",
+        "start": "20:30",
+        "end": "21:30"
+    },
+    {
+        "id": 55,
+        "stage": "West Holts",
+        "day": "SATURDAY",
+        "artist": "GREENTEA PENG",
+        "start": "19:00",
+        "end": "20:00"
+    },
+    {
+        "id": 56,
+        "stage": "West Holts",
+        "day": "SATURDAY",
+        "artist": "YUSSEF DAYES",
+        "start": "17:30",
+        "end": "18:30"
+    },
+    {
+        "id": 57,
+        "stage": "West Holts",
+        "day": "SATURDAY",
+        "artist": "KNEECAP",
+        "start": "16:00",
+        "end": "17:00"
+    },
+    {
+        "id": 58,
+        "stage": "West Holts",
+        "day": "SATURDAY",
+        "artist": "BOB VYLAN",
+        "start": "14:30",
+        "end": "15:30"
+    },
+    {
+        "id": 59,
+        "stage": "West Holts",
+        "day": "SATURDAY",
+        "artist": "NIL\u00dcFER YANYA",
+        "start": "13:00",
+        "end": "14:00"
+    },
+    {
+        "id": 60,
+        "stage": "West Holts",
+        "day": "SATURDAY",
+        "artist": "INFINITY SONG",
+        "start": "11:30",
+        "end": "12:30"
+    },
+    {
+        "id": 61,
+        "stage": "West Holts",
+        "day": "SUNDAY",
+        "artist": "OVERMONO",
+        "start": "21:45",
+        "end": "23:15"
+    },
+    {
+        "id": 62,
+        "stage": "West Holts",
+        "day": "SUNDAY",
+        "artist": "PARCELS",
+        "start": "20:00",
+        "end": "21:00"
+    },
+    {
+        "id": 63,
+        "stage": "West Holts",
+        "day": "SUNDAY",
+        "artist": "THE BRIAN JONESTOWN MASSACRE",
+        "start": "18:30",
+        "end": "19:30"
+    },
+    {
+        "id": 64,
+        "stage": "West Holts",
+        "day": "SUNDAY",
+        "artist": "GOAT",
+        "start": "17:00",
+        "end": "18:00"
+    },
+    {
+        "id": 65,
+        "stage": "West Holts",
+        "day": "SUNDAY",
+        "artist": "BLACK UHURU",
+        "start": "15:30",
+        "end": "16:30"
+    },
+    {
+        "id": 66,
+        "stage": "West Holts",
+        "day": "SUNDAY",
+        "artist": "CYMANDE",
+        "start": "14:00",
+        "end": "15:00"
+    },
+    {
+        "id": 67,
+        "stage": "West Holts",
+        "day": "SUNDAY",
+        "artist": "ABEL SELAOCOE & THE BANTU ENSEMBLE",
+        "start": "12:30",
+        "end": "13:30"
+    },
+    {
+        "id": 68,
+        "stage": "West Holts",
+        "day": "SUNDAY",
+        "artist": "THANDII",
+        "start": "11:00",
+        "end": "12:00"
+    },
+    {
+        "id": 69,
+        "stage": "Woodsies",
+        "day": "FRIDAY",
+        "artist": "FOUR TET",
+        "start": "22:30",
+        "end": "23:45"
+    },
+    {
+        "id": 70,
+        "stage": "Woodsies",
+        "day": "FRIDAY",
+        "artist": "FLOATING POINTS",
+        "start": "21:00",
+        "end": "22:00"
+    },
+    {
+        "id": 71,
+        "stage": "Woodsies",
+        "day": "FRIDAY",
+        "artist": "PINKPANTHERESS",
+        "start": "19:30",
+        "end": "20:30"
+    },
+    {
+        "id": 72,
+        "stage": "Woodsies",
+        "day": "FRIDAY",
+        "artist": "BLOSSOMS",
+        "start": "18:00",
+        "end": "19:00"
+    },
+    {
+        "id": 73,
+        "stage": "Woodsies",
+        "day": "FRIDAY",
+        "artist": "LOLA YOUNG",
+        "start": "16:30",
+        "end": "17:30"
+    },
+    {
+        "id": 74,
+        "stage": "Woodsies",
+        "day": "FRIDAY",
+        "artist": "SHED SEVEN",
+        "start": "15:15",
+        "end": "16:00"
+    },
+    {
+        "id": 75,
+        "stage": "Woodsies",
+        "day": "FRIDAY",
+        "artist": "FAT DOG",
+        "start": "14:00",
+        "end": "14:45"
+    },
+    {
+        "id": 76,
+        "stage": "Woodsies",
+        "day": "FRIDAY",
+        "artist": "MYLES SMITH",
+        "start": "12:45",
+        "end": "13:30"
+    },
+    {
+        "id": 77,
+        "stage": "Woodsies",
+        "day": "FRIDAY",
+        "artist": "TBA",
+        "start": "11:30",
+        "end": "12:15"
+    },
+    {
+        "id": 78,
+        "stage": "Woodsies",
+        "day": "SATURDAY",
+        "artist": "SCISSOR SISTERS",
+        "start": "22:30",
+        "end": "23:45"
+    },
+    {
+        "id": 79,
+        "stage": "Woodsies",
+        "day": "SATURDAY",
+        "artist": "TOM ODELL",
+        "start": "21:00",
+        "end": "22:00"
+    },
+    {
+        "id": 80,
+        "stage": "Woodsies",
+        "day": "SATURDAY",
+        "artist": "FATHER JOHN MISTY",
+        "start": "19:30",
+        "end": "20:30"
+    },
+    {
+        "id": 81,
+        "stage": "Woodsies",
+        "day": "SATURDAY",
+        "artist": "TV ON THE RADIO",
+        "start": "18:00",
+        "end": "19:00"
+    },
+    {
+        "id": 82,
+        "stage": "Woodsies",
+        "day": "SATURDAY",
+        "artist": "NOVA TWINS",
+        "start": "16:30",
+        "end": "17:30"
+    },
+    {
+        "id": 83,
+        "stage": "Woodsies",
+        "day": "SATURDAY",
+        "artist": "JADE",
+        "start": "15:15",
+        "end": "16:00"
+    },
+    {
+        "id": 84,
+        "stage": "Woodsies",
+        "day": "SATURDAY",
+        "artist": "FCUKERS",
+        "start": "14:00",
+        "end": "14:45"
+    },
+    {
+        "id": 85,
+        "stage": "Woodsies",
+        "day": "SATURDAY",
+        "artist": "SORRY",
+        "start": "12:45",
+        "end": "13:30"
+    },
+    {
+        "id": 86,
+        "stage": "Woodsies",
+        "day": "SATURDAY",
+        "artist": "THE AMAZONS",
+        "start": "11:30",
+        "end": "12:15"
+    },
+    {
+        "id": 87,
+        "stage": "Woodsies",
+        "day": "SUNDAY",
+        "artist": "JORJA SMITH",
+        "start": "21:30",
+        "end": "22:45"
+    },
+    {
+        "id": 88,
+        "stage": "Woodsies",
+        "day": "SUNDAY",
+        "artist": "AJ TRACEY",
+        "start": "20:00",
+        "end": "21:00"
+    },
+    {
+        "id": 89,
+        "stage": "Woodsies",
+        "day": "SUNDAY",
+        "artist": "ST. VINCENT",
+        "start": "18:30",
+        "end": "19:30"
+    },
+    {
+        "id": 90,
+        "stage": "Woodsies",
+        "day": "SUNDAY",
+        "artist": "BLACK COUNTRY, NEW ROAD",
+        "start": "17:00",
+        "end": "18:00"
+    },
+    {
+        "id": 91,
+        "stage": "Woodsies",
+        "day": "SUNDAY",
+        "artist": "DJO",
+        "start": "15:30",
+        "end": "16:30"
+    },
+    {
+        "id": 92,
+        "stage": "Woodsies",
+        "day": "SUNDAY",
+        "artist": "SPRINTS",
+        "start": "14:00",
+        "end": "15:00"
+    },
+    {
+        "id": 93,
+        "stage": "Woodsies",
+        "day": "SUNDAY",
+        "artist": "GURRIERS",
+        "start": "12:30",
+        "end": "13:30"
+    },
+    {
+        "id": 94,
+        "stage": "Woodsies",
+        "day": "SUNDAY",
+        "artist": "WESTSIDE COWBOY",
+        "start": "11:15",
+        "end": "12:00"
+    },
+    {
+        "id": 95,
+        "stage": "Park Stage",
+        "day": "FRIDAY",
+        "artist": "ANOHNI AND THE JOHNSONS",
+        "start": "23:00",
+        "end": "00:15"
+    },
+    {
+        "id": 96,
+        "stage": "Park Stage",
+        "day": "FRIDAY",
+        "artist": "SELF ESTEEM",
+        "start": "21:15",
+        "end": "22:15"
+    },
+    {
+        "id": 97,
+        "stage": "Park Stage",
+        "day": "FRIDAY",
+        "artist": "WUNDERHORSE",
+        "start": "19:30",
+        "end": "20:30"
+    },
+    {
+        "id": 98,
+        "stage": "Park Stage",
+        "day": "FRIDAY",
+        "artist": "OSEES",
+        "start": "18:00",
+        "end": "19:00"
+    },
+    {
+        "id": 99,
+        "stage": "Park Stage",
+        "day": "FRIDAY",
+        "artist": "ENGLISH TEACHER",
+        "start": "16:30",
+        "end": "17:30"
+    },
+    {
+        "id": 100,
+        "stage": "Park Stage",
+        "day": "FRIDAY",
+        "artist": "FAYE WEBSTER",
+        "start": "15:15",
+        "end": "16:00"
+    },
+    {
+        "id": 101,
+        "stage": "Park Stage",
+        "day": "FRIDAY",
+        "artist": "JALEN NGONDA",
+        "start": "14:00",
+        "end": "14:45"
+    },
+    {
+        "id": 102,
+        "stage": "Park Stage",
+        "day": "FRIDAY",
+        "artist": "JOHN GLACIER",
+        "start": "12:45",
+        "end": "13:30"
+    },
+    {
+        "id": 103,
+        "stage": "Park Stage",
+        "day": "FRIDAY",
+        "artist": "HORSEGIRL",
+        "start": "11:30",
+        "end": "12:10"
+    },
+    {
+        "id": 104,
+        "stage": "Park Stage",
+        "day": "SATURDAY",
+        "artist": "CARIBOU",
+        "start": "23:00",
+        "end": "00:15"
+    },
+    {
+        "id": 105,
+        "stage": "Park Stage",
+        "day": "SATURDAY",
+        "artist": "BETH GIBBONS",
+        "start": "21:15",
+        "end": "22:15"
+    },
+    {
+        "id": 106,
+        "stage": "Park Stage",
+        "day": "SATURDAY",
+        "artist": "TBA",
+        "start": "19:30",
+        "end": "20:30"
+    },
+    {
+        "id": 107,
+        "stage": "Park Stage",
+        "day": "SATURDAY",
+        "artist": "GARY NUMAN",
+        "start": "18:00",
+        "end": "19:00"
+    },
+    {
+        "id": 108,
+        "stage": "Park Stage",
+        "day": "SATURDAY",
+        "artist": "PA SALIEU",
+        "start": "16:45",
+        "end": "17:30"
+    },
+    {
+        "id": 109,
+        "stage": "Park Stage",
+        "day": "SATURDAY",
+        "artist": "LUCY DACUS",
+        "start": "15:30",
+        "end": "16:15"
+    },
+    {
+        "id": 110,
+        "stage": "Park Stage",
+        "day": "SATURDAY",
+        "artist": "JAPANESE BREAKFAST",
+        "start": "14:00",
+        "end": "15:00"
+    },
+    {
+        "id": 111,
+        "stage": "Park Stage",
+        "day": "SATURDAY",
+        "artist": "ICHIKO AOBA",
+        "start": "12:45",
+        "end": "13:30"
+    },
+    {
+        "id": 112,
+        "stage": "Park Stage",
+        "day": "SATURDAY",
+        "artist": "YANN TIERSEN",
+        "start": "11:10",
+        "end": "12:10"
+    },
+    {
+        "id": 113,
+        "stage": "Park Stage",
+        "day": "SUNDAY",
+        "artist": "THE MACCABEES",
+        "start": "21:15",
+        "end": "22:30"
+    },
+    {
+        "id": 114,
+        "stage": "Park Stage",
+        "day": "SUNDAY",
+        "artist": "FUTURE ISLANDS",
+        "start": "19:35",
+        "end": "20:35"
+    },
+    {
+        "id": 115,
+        "stage": "Park Stage",
+        "day": "SUNDAY",
+        "artist": "KAE TEMPEST",
+        "start": "18:00",
+        "end": "19:00"
+    },
+    {
+        "id": 116,
+        "stage": "Park Stage",
+        "day": "SUNDAY",
+        "artist": "GIRL IN RED",
+        "start": "16:30",
+        "end": "17:30"
+    },
+    {
+        "id": 117,
+        "stage": "Park Stage",
+        "day": "SUNDAY",
+        "artist": "ROYEL OTIS",
+        "start": "15:15",
+        "end": "16:00"
+    },
+    {
+        "id": 118,
+        "stage": "Park Stage",
+        "day": "SUNDAY",
+        "artist": "KATY J PEARSON",
+        "start": "14:00",
+        "end": "14:45"
+    },
+    {
+        "id": 119,
+        "stage": "Park Stage",
+        "day": "SUNDAY",
+        "artist": "GEORDIE GREEP",
+        "start": "12:45",
+        "end": "13:30"
+    },
+    {
+        "id": 120,
+        "stage": "Park Stage",
+        "day": "SUNDAY",
+        "artist": "MELIN MELYN",
+        "start": "11:30",
+        "end": "12:15"
+    },
+    {
+        "id": 121,
+        "stage": "Acoustic Stage",
+        "day": "FRIDAY",
+        "artist": "ANI DIFRANCO",
+        "start": "21:30",
+        "end": "22:45"
+    },
+    {
+        "id": 122,
+        "stage": "Acoustic Stage",
+        "day": "FRIDAY",
+        "artist": "THE SEARCHERS",
+        "start": "20:00",
+        "end": "21:00"
+    },
+    {
+        "id": 123,
+        "stage": "Acoustic Stage",
+        "day": "FRIDAY",
+        "artist": "DHANI HARRISON",
+        "start": "18:30",
+        "end": "19:30"
+    },
+    {
+        "id": 124,
+        "stage": "Acoustic Stage",
+        "day": "FRIDAY",
+        "artist": "BILLIE MARTEN",
+        "start": "17:00",
+        "end": "18:00"
+    },
+    {
+        "id": 125,
+        "stage": "Acoustic Stage",
+        "day": "FRIDAY",
+        "artist": "SKERRYVORE",
+        "start": "16:00",
+        "end": "16:40"
+    },
+    {
+        "id": 126,
+        "stage": "Acoustic Stage",
+        "day": "FRIDAY",
+        "artist": "HUGH CORNWELL",
+        "start": "15:00",
+        "end": "15:40"
+    },
+    {
+        "id": 127,
+        "stage": "Acoustic Stage",
+        "day": "FRIDAY",
+        "artist": "GABRIELLE APLIN",
+        "start": "14:00",
+        "end": "14:40"
+    },
+    {
+        "id": 128,
+        "stage": "Acoustic Stage",
+        "day": "FRIDAY",
+        "artist": "TIFT MERRITT",
+        "start": "13:00",
+        "end": "13:40"
+    },
+    {
+        "id": 129,
+        "stage": "Acoustic Stage",
+        "day": "FRIDAY",
+        "artist": "NADIA REID",
+        "start": "12:10",
+        "end": "12:40"
+    },
+    {
+        "id": 130,
+        "stage": "Acoustic Stage",
+        "day": "FRIDAY",
+        "artist": "OUR MAN IN THE FIELD",
+        "start": "11:30",
+        "end": "12:00"
+    },
+    {
+        "id": 131,
+        "stage": "Acoustic Stage",
+        "day": "SATURDAY",
+        "artist": "NICK LOWE",
+        "start": "21:30",
+        "end": "22:45"
+    },
+    {
+        "id": 132,
+        "stage": "Acoustic Stage",
+        "day": "SATURDAY",
+        "artist": "HOTHOUSE FLOWERS",
+        "start": "20:00",
+        "end": "21:00"
+    },
+    {
+        "id": 133,
+        "stage": "Acoustic Stage",
+        "day": "SATURDAY",
+        "artist": "JEREMY LOOPS",
+        "start": "18:30",
+        "end": "19:30"
+    },
+    {
+        "id": 134,
+        "stage": "Acoustic Stage",
+        "day": "SATURDAY",
+        "artist": "THE CORONAS",
+        "start": "17:10",
+        "end": "18:00"
+    },
+    {
+        "id": 135,
+        "stage": "Acoustic Stage",
+        "day": "SATURDAY",
+        "artist": "THE BLUEBELLS",
+        "start": "16:10",
+        "end": "16:50"
+    },
+    {
+        "id": 136,
+        "stage": "Acoustic Stage",
+        "day": "SATURDAY",
+        "artist": "NOT COMPLETELY UNKNOWN A CELEBRATION OF THE SONGS OF BOB DYLAN FEATURING: PAUL CARRACK, SID GRIFFIN, KATYA, RALPH MCTELL, LIAM O MAONLAI",
+        "start": "15:00",
+        "end": "16:00"
+    },
+    {
+        "id": 137,
+        "stage": "Acoustic Stage",
+        "day": "SATURDAY",
+        "artist": "SOPHIE B. HAWKINS",
+        "start": "14:00",
+        "end": "14:40"
+    },
+    {
+        "id": 138,
+        "stage": "Acoustic Stage",
+        "day": "SATURDAY",
+        "artist": "OISIN LEECH",
+        "start": "13:00",
+        "end": "13:40"
+    },
+    {
+        "id": 139,
+        "stage": "Acoustic Stage",
+        "day": "SATURDAY",
+        "artist": "LORRAINE NASH",
+        "start": "12:10",
+        "end": "12:40"
+    },
+    {
+        "id": 140,
+        "stage": "Acoustic Stage",
+        "day": "SATURDAY",
+        "artist": "HENRY GRACE",
+        "start": "11:30",
+        "end": "12:00"
+    },
+    {
+        "id": 141,
+        "stage": "Acoustic Stage",
+        "day": "SUNDAY",
+        "artist": "ROY HARPER",
+        "start": "21:30",
+        "end": "22:30"
+    },
+    {
+        "id": 142,
+        "stage": "Acoustic Stage",
+        "day": "SUNDAY",
+        "artist": "THE BOOTLEG BEATLES",
+        "start": "20:00",
+        "end": "21:00"
+    },
+    {
+        "id": 143,
+        "stage": "Acoustic Stage",
+        "day": "SUNDAY",
+        "artist": "RHIANNON GIDDENS WITH DIRK POWELL",
+        "start": "18:30",
+        "end": "19:30"
+    },
+    {
+        "id": 144,
+        "stage": "Acoustic Stage",
+        "day": "SUNDAY",
+        "artist": "LONDON COMMUNITY GOSPEL CHOIR",
+        "start": "17:00",
+        "end": "18:00"
+    },
+    {
+        "id": 145,
+        "stage": "Acoustic Stage",
+        "day": "SUNDAY",
+        "artist": "PP ARNOLD",
+        "start": "16:00",
+        "end": "16:40"
+    },
+    {
+        "id": 146,
+        "stage": "Acoustic Stage",
+        "day": "SUNDAY",
+        "artist": "THE RIPTIDE MOVEMENT",
+        "start": "15:00",
+        "end": "15:40"
+    },
+    {
+        "id": 147,
+        "stage": "Acoustic Stage",
+        "day": "SUNDAY",
+        "artist": "MICHELE STODART",
+        "start": "14:00",
+        "end": "14:40"
+    },
+    {
+        "id": 148,
+        "stage": "Acoustic Stage",
+        "day": "SUNDAY",
+        "artist": "THE HENRY GIRLS",
+        "start": "13:00",
+        "end": "13:40"
+    },
+    {
+        "id": 149,
+        "stage": "Acoustic Stage",
+        "day": "SUNDAY",
+        "artist": "TOBY LEE",
+        "start": "12:10",
+        "end": "12:40"
+    },
+    {
+        "id": 150,
+        "stage": "Acoustic Stage",
+        "day": "SUNDAY",
+        "artist": "DAWN LANDES & FRIENDS PERFORM THE LIBERATED WOMAN\u2019S SONGBOOK",
+        "start": "11:30",
+        "end": "12:00"
+    },
+    {
+        "id": 151,
+        "stage": "Avalon",
+        "day": "FRIDAY",
+        "artist": "THE FRATELLIS",
+        "start": "23:05",
+        "end": "00:20"
+    },
+    {
+        "id": 152,
+        "stage": "Avalon",
+        "day": "FRIDAY",
+        "artist": "TERRORVISION",
+        "start": "21:35",
+        "end": "22:35"
+    },
+    {
+        "id": 153,
+        "stage": "Avalon",
+        "day": "FRIDAY",
+        "artist": "THE MAGIC NUMBERS",
+        "start": "20:05",
+        "end": "21:05"
+    },
+    {
+        "id": 154,
+        "stage": "Avalon",
+        "day": "FRIDAY",
+        "artist": "ORLA GARTLAND",
+        "start": "18:35",
+        "end": "19:35"
+    },
+    {
+        "id": 155,
+        "stage": "Avalon",
+        "day": "FRIDAY",
+        "artist": "ASH",
+        "start": "17:05",
+        "end": "18:05"
+    },
+    {
+        "id": 156,
+        "stage": "Avalon",
+        "day": "FRIDAY",
+        "artist": "PARIS PALOMA",
+        "start": "15:35",
+        "end": "16:35"
+    },
+    {
+        "id": 157,
+        "stage": "Avalon",
+        "day": "FRIDAY",
+        "artist": "RUMBA DE BODAS",
+        "start": "14:10",
+        "end": "15:05"
+    },
+    {
+        "id": 158,
+        "stage": "Avalon",
+        "day": "FRIDAY",
+        "artist": "BEANS ON TOAST",
+        "start": "12:50",
+        "end": "13:40"
+    },
+    {
+        "id": 159,
+        "stage": "Avalon",
+        "day": "SATURDAY",
+        "artist": "HARD-FI",
+        "start": "23:10",
+        "end": "00:20"
+    },
+    {
+        "id": 160,
+        "stage": "Avalon",
+        "day": "SATURDAY",
+        "artist": "TOM WALKER",
+        "start": "21:40",
+        "end": "22:40"
+    },
+    {
+        "id": 161,
+        "stage": "Avalon",
+        "day": "SATURDAY",
+        "artist": "RACHEL CHINOURIRI",
+        "start": "20:10",
+        "end": "21:10"
+    },
+    {
+        "id": 162,
+        "stage": "Avalon",
+        "day": "SATURDAY",
+        "artist": "JADE BIRD",
+        "start": "18:40",
+        "end": "19:40"
+    },
+    {
+        "id": 163,
+        "stage": "Avalon",
+        "day": "SATURDAY",
+        "artist": "THE AMY WINEHOUSE BAND",
+        "start": "17:10",
+        "end": "18:10"
+    },
+    {
+        "id": 164,
+        "stage": "Avalon",
+        "day": "SATURDAY",
+        "artist": "JAMIE CULLUM",
+        "start": "15:40",
+        "end": "16:40"
+    },
+    {
+        "id": 165,
+        "stage": "Avalon",
+        "day": "SATURDAY",
+        "artist": "STEPHEN WILSON JR.",
+        "start": "14:15",
+        "end": "15:10"
+    },
+    {
+        "id": 166,
+        "stage": "Avalon",
+        "day": "SATURDAY",
+        "artist": "BESS ATWELL",
+        "start": "12:50",
+        "end": "13:45"
+    },
+    {
+        "id": 167,
+        "stage": "Avalon",
+        "day": "SATURDAY",
+        "artist": "F\u00dcL\u00dc",
+        "start": "11:30",
+        "end": "12:20"
+    },
+    {
+        "id": 168,
+        "stage": "Avalon",
+        "day": "SUNDAY",
+        "artist": "ALABAMA 3",
+        "start": "22:50",
+        "end": "23:50"
+    },
+    {
+        "id": 169,
+        "stage": "Avalon",
+        "day": "SUNDAY",
+        "artist": "BEAR'S DEN",
+        "start": "21:20",
+        "end": "22:20"
+    },
+    {
+        "id": 170,
+        "stage": "Avalon",
+        "day": "SUNDAY",
+        "artist": "SAM RYDER",
+        "start": "19:50",
+        "end": "20:50"
+    },
+    {
+        "id": 171,
+        "stage": "Avalon",
+        "day": "SUNDAY",
+        "artist": "THE BIG MOON",
+        "start": "18:20",
+        "end": "19:20"
+    },
+    {
+        "id": 172,
+        "stage": "Avalon",
+        "day": "SUNDAY",
+        "artist": "MY BABY",
+        "start": "16:50",
+        "end": "17:50"
+    },
+    {
+        "id": 173,
+        "stage": "Avalon",
+        "day": "SUNDAY",
+        "artist": "THE HORNE SECTION",
+        "start": "15:20",
+        "end": "16:20"
+    },
+    {
+        "id": 174,
+        "stage": "Avalon",
+        "day": "SUNDAY",
+        "artist": "BROOKE COMBE",
+        "start": "13:55",
+        "end": "14:50"
+    },
+    {
+        "id": 175,
+        "stage": "Avalon",
+        "day": "SUNDAY",
+        "artist": "TALISK",
+        "start": "12:30",
+        "end": "13:25"
+    },
+    {
+        "id": 176,
+        "stage": "Avalon",
+        "day": "SUNDAY",
+        "artist": "DEA MATRONA",
+        "start": "11:25",
+        "end": "12:05"
+    },
+    {
+        "id": 177,
+        "stage": "Left Field",
+        "day": "FRIDAY",
+        "artist": "BILLY BRAGG",
+        "start": "21:00",
+        "end": "22:00"
+    },
+    {
+        "id": 178,
+        "stage": "Left Field",
+        "day": "FRIDAY",
+        "artist": "ANTONY SZMIEREK",
+        "start": "19:50",
+        "end": "20:30"
+    },
+    {
+        "id": 179,
+        "stage": "Left Field",
+        "day": "FRIDAY",
+        "artist": "JASMINE.4.T",
+        "start": "18:40",
+        "end": "19:20"
+    },
+    {
+        "id": 180,
+        "stage": "Left Field",
+        "day": "FRIDAY",
+        "artist": "GURRIERS",
+        "start": "17:35",
+        "end": "18:10"
+    },
+    {
+        "id": 181,
+        "stage": "Left Field",
+        "day": "FRIDAY",
+        "artist": "THE MEFFS",
+        "start": "16:30",
+        "end": "17:05"
+    },
+    {
+        "id": 182,
+        "stage": "Left Field",
+        "day": "FRIDAY",
+        "artist": "RADICAL ROUND UP: WITH BILLY BRAGG, JASMINE.4.T, HOLLY CARTER",
+        "start": "15:00",
+        "end": "16:00"
+    },
+    {
+        "id": 183,
+        "stage": "Left Field",
+        "day": "FRIDAY",
+        "artist": "PANEL: FEMINISM IN THE AGE OF THE MANOSPHERE WITH BEYOND EQUALITY, CARYS AFOKO, MARAI LARASI, SUSIE MCDONALD, NIM RALPH",
+        "start": "13:30",
+        "end": "14:30"
+    },
+    {
+        "id": 184,
+        "stage": "Left Field",
+        "day": "FRIDAY",
+        "artist": "PANEL: WHAT NEXT FOR THE LEFT: POLITICS, ORGANISING AND POWER WITH ASH SARKAR, CHANTELLE LUNT, GARY YOUNGE, HARRIET PROTHEROE-SOLTANI, AYEISHA THOMAS SMITH",
+        "start": "12:00",
+        "end": "13:00"
+    },
+    {
+        "id": 185,
+        "stage": "Left Field",
+        "day": "SATURDAY",
+        "artist": "KATE NASH",
+        "start": "21:00",
+        "end": "22:00"
+    },
+    {
+        "id": 186,
+        "stage": "Left Field",
+        "day": "SATURDAY",
+        "artist": "LAMBRINI GIRLS",
+        "start": "19:50",
+        "end": "20:30"
+    },
+    {
+        "id": 187,
+        "stage": "Left Field",
+        "day": "SATURDAY",
+        "artist": "THE GUEST LIST",
+        "start": "18:40",
+        "end": "19:20"
+    },
+    {
+        "id": 188,
+        "stage": "Left Field",
+        "day": "SATURDAY",
+        "artist": "CHLOE SLATER",
+        "start": "17:35",
+        "end": "18:10"
+    },
+    {
+        "id": 189,
+        "stage": "Left Field",
+        "day": "SATURDAY",
+        "artist": "GIRLBAND!",
+        "start": "16:30",
+        "end": "17:05"
+    },
+    {
+        "id": 190,
+        "stage": "Left Field",
+        "day": "SATURDAY",
+        "artist": "RADICAL ROUND UP: WITH BILLY BRAGG, RIANNE DOWNEY, ANDY WHITE",
+        "start": "15:00",
+        "end": "16:00"
+    },
+    {
+        "id": 191,
+        "stage": "Left Field",
+        "day": "SATURDAY",
+        "artist": "PANEL: SAVING THE PLANET BUT NOT LEAVING THE WORKERS BEHIND WITH CAROLINE LUCAS, NEW ECONOMICS FOUNDATION, PORT TALBOT STEEL WORKER, UNITE THE UNION, GRACIE MAE BRADLEY",
+        "start": "13:30",
+        "end": "14:30"
+    },
+    {
+        "id": 192,
+        "stage": "Left Field",
+        "day": "SATURDAY",
+        "artist": "PANEL: CONFRONTING THE RISE OF THE FAR RIGHT WITH ADAM GREEN, CAROL CADWALLADR, HOPE NOT HATE, ZARAH SULTANA MP, JOHN HARRIS",
+        "start": "12:00",
+        "end": "13:00"
+    },
+    {
+        "id": 193,
+        "stage": "Left Field",
+        "day": "SUNDAY",
+        "artist": "GRANDSON",
+        "start": "21:00",
+        "end": "22:00"
+    },
+    {
+        "id": 194,
+        "stage": "Left Field",
+        "day": "SUNDAY",
+        "artist": "REVEREND AND THE MAKERS",
+        "start": "19:50",
+        "end": "20:30"
+    },
+    {
+        "id": 195,
+        "stage": "Left Field",
+        "day": "SUNDAY",
+        "artist": "RED RUM CLUB",
+        "start": "18:40",
+        "end": "19:20"
+    },
+    {
+        "id": 196,
+        "stage": "Left Field",
+        "day": "SUNDAY",
+        "artist": "DU BLONDE",
+        "start": "17:35",
+        "end": "18:10"
+    },
+    {
+        "id": 197,
+        "stage": "Left Field",
+        "day": "SUNDAY",
+        "artist": "THE HALFWAY KID",
+        "start": "16:30",
+        "end": "17:05"
+    },
+    {
+        "id": 198,
+        "stage": "Left Field",
+        "day": "SUNDAY",
+        "artist": "RADICAL ROUND UP: WITH BILLY BRAGG, GRANDSON, JAMIE WEBSTER",
+        "start": "15:00",
+        "end": "16:00"
+    },
+    {
+        "id": 199,
+        "stage": "Left Field",
+        "day": "SUNDAY",
+        "artist": "PANEL: DISABILITY CUTS: THE FIGHT BACK WITH ADY, MY LIFE MY CHOICE, ANDY BURNHAM, DISABLED PEOPLE AGAINST THE CUTS, LAYLA STEADMAN-BEVAN, JOHN HARRIS",
+        "start": "13:30",
+        "end": "14:30"
+    },
+    {
+        "id": 200,
+        "stage": "Left Field",
+        "day": "SUNDAY",
+        "artist": "PANEL: HOW TO FIX THE CRISIS CARE WITH ASHLEY JOHN-BAPTISTE, DAISY-MAY HUDSON, EMILY KENWAY, FILIPINO DOMESTIC WORKERS ASSOC., MINNIE RAHMAN",
+        "start": "12:00",
+        "end": "13:00"
+    },
+    {
+        "id": 201,
+        "stage": "Arcadia",
+        "day": "FRIDAY",
+        "artist": "JOB JOBSE B2B PALMS TRAX",
+        "start": "02:00",
+        "end": "03:00"
+    },
+    {
+        "id": 202,
+        "stage": "Arcadia",
+        "day": "FRIDAY",
+        "artist": "ROMY",
+        "start": "01:00",
+        "end": "02:00"
+    },
+    {
+        "id": 203,
+        "stage": "Arcadia",
+        "day": "FRIDAY",
+        "artist": "SONNY FODERA",
+        "start": "00:00",
+        "end": "01:00"
+    },
+    {
+        "id": 204,
+        "stage": "Arcadia",
+        "day": "FRIDAY",
+        "artist": "DRAGONFLY SHOW",
+        "start": "23:50",
+        "end": "00:00"
+    },
+    {
+        "id": 205,
+        "stage": "Arcadia",
+        "day": "FRIDAY",
+        "artist": "MAX COOPER",
+        "start": "22:50",
+        "end": "23:50"
+    },
+    {
+        "id": 206,
+        "stage": "Arcadia",
+        "day": "FRIDAY",
+        "artist": "OPTIMO (ESPACIO)",
+        "start": "21:55",
+        "end": "22:50"
+    },
+    {
+        "id": 207,
+        "stage": "Arcadia",
+        "day": "FRIDAY",
+        "artist": "LOGIC 1000",
+        "start": "21:00",
+        "end": "21:55"
+    },
+    {
+        "id": 208,
+        "stage": "Arcadia",
+        "day": "SATURDAY",
+        "artist": "GROOVE ARMADA B2B JUNGLE (DJ SET)",
+        "start": "02:00",
+        "end": "03:00"
+    },
+    {
+        "id": 209,
+        "stage": "Arcadia",
+        "day": "SATURDAY",
+        "artist": "ANNIE MAC B2B JAMZ SUPERNOVA",
+        "start": "01:00",
+        "end": "02:00"
+    },
+    {
+        "id": 210,
+        "stage": "Arcadia",
+        "day": "SATURDAY",
+        "artist": "FOUR TET",
+        "start": "00:00",
+        "end": "01:00"
+    },
+    {
+        "id": 211,
+        "stage": "Arcadia",
+        "day": "SATURDAY",
+        "artist": "DRAGONFLY SHOW",
+        "start": "23:50",
+        "end": "00:00"
+    },
+    {
+        "id": 212,
+        "stage": "Arcadia",
+        "day": "SATURDAY",
+        "artist": "MICHAEL BIBI B2B SOLOMUN",
+        "start": "22:50",
+        "end": "23:50"
+    },
+    {
+        "id": 213,
+        "stage": "Arcadia",
+        "day": "SATURDAY",
+        "artist": "HANNAH WANTS",
+        "start": "21:55",
+        "end": "22:50"
+    },
+    {
+        "id": 214,
+        "stage": "Arcadia",
+        "day": "SATURDAY",
+        "artist": "DANNY HOWARD",
+        "start": "21:00",
+        "end": "21:55"
+    },
+    {
+        "id": 215,
+        "stage": "Arcadia",
+        "day": "SATURDAY",
+        "artist": "BECKY HILL",
+        "start": "20:00",
+        "end": "21:00"
+    },
+    {
+        "id": 216,
+        "stage": "Arcadia",
+        "day": "SUNDAY",
+        "artist": "BASSLAYERZ B2B BORN ON ROAD",
+        "start": "01:30",
+        "end": "02:30"
+    },
+    {
+        "id": 217,
+        "stage": "Arcadia",
+        "day": "SUNDAY",
+        "artist": "SHY FX B2B EATS EVERYTHING",
+        "start": "00:10",
+        "end": "01:30"
+    },
+    {
+        "id": 218,
+        "stage": "Arcadia",
+        "day": "SUNDAY",
+        "artist": "BRU-C",
+        "start": "23:40",
+        "end": "00:10"
+    },
+    {
+        "id": 219,
+        "stage": "Arcadia",
+        "day": "SUNDAY",
+        "artist": "DRAGONFLY SHOW",
+        "start": "23:30",
+        "end": "23:40"
+    },
+    {
+        "id": 220,
+        "stage": "Arcadia",
+        "day": "SUNDAY",
+        "artist": "GIRLS DONT SYNC",
+        "start": "22:30",
+        "end": "23:30"
+    },
+    {
+        "id": 221,
+        "stage": "Arcadia",
+        "day": "SUNDAY",
+        "artist": "DR BANANA B2B GALLEGOS",
+        "start": "21:30",
+        "end": "22:30"
+    },
+    {
+        "id": 222,
+        "stage": "Arcadia",
+        "day": "SUNDAY",
+        "artist": "EVA LAZARUS",
+        "start": "21:00",
+        "end": "21:30"
+    },
+    {
+        "id": 223,
+        "stage": "Arcadia",
+        "day": "SUNDAY",
+        "artist": "JEREMIAH ASIAMAH",
+        "start": "20:00",
+        "end": "21:00"
+    },
+    {
+        "id": 224,
+        "stage": "Levels",
+        "day": "THURSDAY",
+        "artist": "ADIEL",
+        "start": "01:00",
+        "end": "03:00"
+    },
+    {
+        "id": 225,
+        "stage": "Levels",
+        "day": "THURSDAY",
+        "artist": "MARIE DAVIDSON",
+        "start": "23:30",
+        "end": "01:00"
+    },
+    {
+        "id": 226,
+        "stage": "Levels",
+        "day": "THURSDAY",
+        "artist": "PINKPANTHERESS [NOCTURNAL SET]",
+        "start": "23:00",
+        "end": "23:30"
+    },
+    {
+        "id": 227,
+        "stage": "Levels",
+        "day": "THURSDAY",
+        "artist": "CONFIDENCE MAN (DJ) B2B JOB JOBSE",
+        "start": "21:00",
+        "end": "23:00"
+    },
+    {
+        "id": 228,
+        "stage": "Levels",
+        "day": "THURSDAY",
+        "artist": "PALMS TRAX",
+        "start": "19:30",
+        "end": "21:00"
+    },
+    {
+        "id": 229,
+        "stage": "Levels",
+        "day": "THURSDAY",
+        "artist": "PEACH B2B CLUB FITNESS",
+        "start": "18:00",
+        "end": "19:30"
+    },
+    {
+        "id": 230,
+        "stage": "Levels",
+        "day": "FRIDAY",
+        "artist": "CALIBRE",
+        "start": "01:45",
+        "end": "03:00"
+    },
+    {
+        "id": 231,
+        "stage": "Levels",
+        "day": "FRIDAY",
+        "artist": "GOLDIE B2B SPECIAL REQUEST",
+        "start": "00:15",
+        "end": "01:45"
+    },
+    {
+        "id": 232,
+        "stage": "Levels",
+        "day": "FRIDAY",
+        "artist": "LTJ BUKEM",
+        "start": "23:00",
+        "end": "00:15"
+    },
+    {
+        "id": 233,
+        "stage": "Levels",
+        "day": "FRIDAY",
+        "artist": "LENS W/ DREAD MC",
+        "start": "21:45",
+        "end": "23:00"
+    },
+    {
+        "id": 234,
+        "stage": "Levels",
+        "day": "FRIDAY",
+        "artist": "NOTION",
+        "start": "20:30",
+        "end": "21:45"
+    },
+    {
+        "id": 235,
+        "stage": "Levels",
+        "day": "FRIDAY",
+        "artist": "CONDUCTA",
+        "start": "19:15",
+        "end": "20:30"
+    },
+    {
+        "id": 236,
+        "stage": "Levels",
+        "day": "FRIDAY",
+        "artist": "OPPIDAN B2B SICARIA",
+        "start": "17:45",
+        "end": "19:15"
+    },
+    {
+        "id": 237,
+        "stage": "Levels",
+        "day": "FRIDAY",
+        "artist": "ARTHI",
+        "start": "16:35",
+        "end": "17:45"
+    },
+    {
+        "id": 238,
+        "stage": "Levels",
+        "day": "FRIDAY",
+        "artist": "KATY B (LIVE)",
+        "start": "16:15",
+        "end": "16:35"
+    },
+    {
+        "id": 239,
+        "stage": "Levels",
+        "day": "FRIDAY",
+        "artist": "DJ EZ",
+        "start": "15:00",
+        "end": "16:15"
+    },
+    {
+        "id": 240,
+        "stage": "Levels",
+        "day": "FRIDAY",
+        "artist": "G33",
+        "start": "13:30",
+        "end": "15:00"
+    },
+    {
+        "id": 241,
+        "stage": "Levels",
+        "day": "FRIDAY",
+        "artist": "BAD B!TCH DUBZ",
+        "start": "12:00",
+        "end": "13:30"
+    },
+    {
+        "id": 242,
+        "stage": "Levels",
+        "day": "SATURDAY",
+        "artist": "JYOTY",
+        "start": "01:15",
+        "end": "03:00"
+    },
+    {
+        "id": 243,
+        "stage": "Levels",
+        "day": "SATURDAY",
+        "artist": "SKREAM & BENGA W/ SGT POKES",
+        "start": "00:00",
+        "end": "01:15"
+    },
+    {
+        "id": 244,
+        "stage": "Levels",
+        "day": "SATURDAY",
+        "artist": "MODESELEKTOR (DJ)",
+        "start": "22:30",
+        "end": "00:00"
+    },
+    {
+        "id": 245,
+        "stage": "Levels",
+        "day": "SATURDAY",
+        "artist": "EROL ALKAN B2B EWAN MCVICAR",
+        "start": "21:00",
+        "end": "22:30"
+    },
+    {
+        "id": 246,
+        "stage": "Levels",
+        "day": "SATURDAY",
+        "artist": "HAAI B2B ROMY",
+        "start": "19:30",
+        "end": "21:00"
+    },
+    {
+        "id": 247,
+        "stage": "Levels",
+        "day": "SATURDAY",
+        "artist": "CHAOS IN THE CBD",
+        "start": "18:00",
+        "end": "19:30"
+    },
+    {
+        "id": 248,
+        "stage": "Levels",
+        "day": "SATURDAY",
+        "artist": "BERLIOZ",
+        "start": "16:30",
+        "end": "18:00"
+    },
+    {
+        "id": 249,
+        "stage": "Levels",
+        "day": "SATURDAY",
+        "artist": "JUNGLE (DJ)",
+        "start": "15:00",
+        "end": "16:30"
+    },
+    {
+        "id": 250,
+        "stage": "Levels",
+        "day": "SATURDAY",
+        "artist": "DJ PAULETTE",
+        "start": "13:30",
+        "end": "15:00"
+    },
+    {
+        "id": 251,
+        "stage": "Levels",
+        "day": "SATURDAY",
+        "artist": "ELLA KNIGHT",
+        "start": "12:00",
+        "end": "13:30"
+    },
+    {
+        "id": 252,
+        "stage": "Levels",
+        "day": "SUNDAY",
+        "artist": "GROOVE ARMADA",
+        "start": "01:00",
+        "end": "02:30"
+    },
+    {
+        "id": 253,
+        "stage": "Levels",
+        "day": "SUNDAY",
+        "artist": "SETH TROXLER",
+        "start": "23:30",
+        "end": "01:00"
+    },
+    {
+        "id": 254,
+        "stage": "Levels",
+        "day": "SUNDAY",
+        "artist": "JOSH BAKER",
+        "start": "22:00",
+        "end": "23:30"
+    },
+    {
+        "id": 255,
+        "stage": "Levels",
+        "day": "SUNDAY",
+        "artist": "PAWSA",
+        "start": "20:30",
+        "end": "22:00"
+    },
+    {
+        "id": 256,
+        "stage": "Levels",
+        "day": "SUNDAY",
+        "artist": "CHLOE CAILLET",
+        "start": "19:00",
+        "end": "20:30"
+    },
+    {
+        "id": 257,
+        "stage": "Levels",
+        "day": "SUNDAY",
+        "artist": "ADRIATIQUE B2B CARLITA",
+        "start": "17:30",
+        "end": "19:00"
+    },
+    {
+        "id": 258,
+        "stage": "Levels",
+        "day": "SUNDAY",
+        "artist": "KILIMANJARO B2B TSHA",
+        "start": "16:00",
+        "end": "17:30"
+    },
+    {
+        "id": 259,
+        "stage": "Levels",
+        "day": "SUNDAY",
+        "artist": "JAZZY",
+        "start": "14:45",
+        "end": "16:00"
+    },
+    {
+        "id": 260,
+        "stage": "Levels",
+        "day": "SUNDAY",
+        "artist": "RIO TASHAN",
+        "start": "13:15",
+        "end": "14:45"
+    },
+    {
+        "id": 261,
+        "stage": "Levels",
+        "day": "SUNDAY",
+        "artist": "DANI WHYLIE",
+        "start": "12:00",
+        "end": "13:15"
+    },
+    {
+        "id": 262,
+        "stage": "Glade",
+        "day": "THURSDAY",
+        "artist": "SALLY C",
+        "start": "00:30",
+        "end": "02:00"
+    },
+    {
+        "id": 263,
+        "stage": "Glade",
+        "day": "THURSDAY",
+        "artist": "JOY ORBISON",
+        "start": "23:00",
+        "end": "00:30"
+    },
+    {
+        "id": 264,
+        "stage": "Glade",
+        "day": "THURSDAY",
+        "artist": "ELIZA ROSE",
+        "start": "21:45",
+        "end": "23:00"
+    },
+    {
+        "id": 265,
+        "stage": "Glade",
+        "day": "THURSDAY",
+        "artist": "ROSS FROM FRIENDS PRESENTS: BUBBLE LOVE",
+        "start": "20:30",
+        "end": "21:45"
+    },
+    {
+        "id": 266,
+        "stage": "Glade",
+        "day": "THURSDAY",
+        "artist": "LAUREN LO SUNG",
+        "start": "19:30",
+        "end": "20:30"
+    },
+    {
+        "id": 267,
+        "stage": "Glade",
+        "day": "THURSDAY",
+        "artist": "MARSHALL JEFFERSON",
+        "start": "18:15",
+        "end": "19:30"
+    },
+    {
+        "id": 268,
+        "stage": "Glade",
+        "day": "THURSDAY",
+        "artist": "MJ COLE PRESENTS: SINCERE",
+        "start": "17:15",
+        "end": "18:15"
+    },
+    {
+        "id": 269,
+        "stage": "Glade",
+        "day": "FRIDAY",
+        "artist": "DAMIAN LAZARUS",
+        "start": "01:45",
+        "end": "02:55"
+    },
+    {
+        "id": 270,
+        "stage": "Glade",
+        "day": "FRIDAY",
+        "artist": "SETH TROXLER",
+        "start": "00:30",
+        "end": "01:45"
+    },
+    {
+        "id": 271,
+        "stage": "Glade",
+        "day": "FRIDAY",
+        "artist": "SKEPTA B2B MOCHAKK B2B CARLITA",
+        "start": "23:15",
+        "end": "00:30"
+    },
+    {
+        "id": 272,
+        "stage": "Glade",
+        "day": "FRIDAY",
+        "artist": "SHYGIRL PRESENTS: CLUB SHY",
+        "start": "22:10",
+        "end": "23:10"
+    },
+    {
+        "id": 273,
+        "stage": "Glade",
+        "day": "FRIDAY",
+        "artist": "KETTAMA B2B INTERPLANETARY CRIMINAL",
+        "start": "20:45",
+        "end": "22:00"
+    },
+    {
+        "id": 274,
+        "stage": "Glade",
+        "day": "FRIDAY",
+        "artist": "DANIEL AVERY B2B IMOGEN",
+        "start": "19:30",
+        "end": "20:45"
+    },
+    {
+        "id": 275,
+        "stage": "Glade",
+        "day": "FRIDAY",
+        "artist": "FISH56OCTOGAN",
+        "start": "18:30",
+        "end": "19:30"
+    },
+    {
+        "id": 276,
+        "stage": "Glade",
+        "day": "FRIDAY",
+        "artist": "K KLASS",
+        "start": "17:45",
+        "end": "18:25"
+    },
+    {
+        "id": 277,
+        "stage": "Glade",
+        "day": "FRIDAY",
+        "artist": "CARL COX & ERIC POWELL'S MOBILE DISCO FEAT JULIE MCKNIGHT",
+        "start": "14:25",
+        "end": "17:25"
+    },
+    {
+        "id": 278,
+        "stage": "Glade",
+        "day": "FRIDAY",
+        "artist": "CRAZY P (DJ)",
+        "start": "13:10",
+        "end": "14:10"
+    },
+    {
+        "id": 279,
+        "stage": "Glade",
+        "day": "FRIDAY",
+        "artist": "BEL COBAIN",
+        "start": "12:00",
+        "end": "13:00"
+    },
+    {
+        "id": 280,
+        "stage": "Glade",
+        "day": "SATURDAY",
+        "artist": "AMELIE LENS",
+        "start": "01:30",
+        "end": "02:55"
+    },
+    {
+        "id": 281,
+        "stage": "Glade",
+        "day": "SATURDAY",
+        "artist": "RICHIE HAWTIN",
+        "start": "00:00",
+        "end": "01:30"
+    },
+    {
+        "id": 282,
+        "stage": "Glade",
+        "day": "SATURDAY",
+        "artist": "LEFTFIELD",
+        "start": "22:30",
+        "end": "23:45"
+    },
+    {
+        "id": 283,
+        "stage": "Glade",
+        "day": "SATURDAY",
+        "artist": "MAX COOPER (LIVE A/V)",
+        "start": "20:30",
+        "end": "22:00"
+    },
+    {
+        "id": 284,
+        "stage": "Glade",
+        "day": "SATURDAY",
+        "artist": "ANNIE MAC",
+        "start": "18:55",
+        "end": "20:10"
+    },
+    {
+        "id": 285,
+        "stage": "Glade",
+        "day": "SATURDAY",
+        "artist": "NABIHAH IQBAL (DJ)",
+        "start": "17:40",
+        "end": "18:55"
+    },
+    {
+        "id": 286,
+        "stage": "Glade",
+        "day": "SATURDAY",
+        "artist": "DELE SOSEMI AFROBEAT EXPERIENCE",
+        "start": "16:30",
+        "end": "17:30"
+    },
+    {
+        "id": 287,
+        "stage": "Glade",
+        "day": "SATURDAY",
+        "artist": "TUNNG",
+        "start": "15:00",
+        "end": "16:00"
+    },
+    {
+        "id": 288,
+        "stage": "Glade",
+        "day": "SATURDAY",
+        "artist": "ELECTRIC JALABA",
+        "start": "13:30",
+        "end": "14:30"
+    },
+    {
+        "id": 289,
+        "stage": "Glade",
+        "day": "SATURDAY",
+        "artist": "CHANNEL ONE SOUND SYSTEM",
+        "start": "12:00",
+        "end": "13:00"
+    },
+    {
+        "id": 290,
+        "stage": "Glade",
+        "day": "SUNDAY",
+        "artist": "SHERELLE",
+        "start": "00:30",
+        "end": "02:00"
+    },
+    {
+        "id": 291,
+        "stage": "Glade",
+        "day": "SUNDAY",
+        "artist": "GOLDIE (LIVE)",
+        "start": "23:15",
+        "end": "00:15"
+    },
+    {
+        "id": 292,
+        "stage": "Glade",
+        "day": "SUNDAY",
+        "artist": "A GUY CALLED GERALD + THE JUNGLE DRUMMER (LIVE)",
+        "start": "21:45",
+        "end": "22:45"
+    },
+    {
+        "id": 293,
+        "stage": "Glade",
+        "day": "SUNDAY",
+        "artist": "DEEP DISH",
+        "start": "20:15",
+        "end": "21:15"
+    },
+    {
+        "id": 294,
+        "stage": "Glade",
+        "day": "SUNDAY",
+        "artist": "THE ORB",
+        "start": "19:15",
+        "end": "20:15"
+    },
+    {
+        "id": 295,
+        "stage": "Glade",
+        "day": "SUNDAY",
+        "artist": "THIRD WORLD",
+        "start": "18:00",
+        "end": "19:00"
+    },
+    {
+        "id": 296,
+        "stage": "Glade",
+        "day": "SUNDAY",
+        "artist": "OMEGA NEBULA",
+        "start": "16:30",
+        "end": "17:30"
+    },
+    {
+        "id": 297,
+        "stage": "Glade",
+        "day": "SUNDAY",
+        "artist": "K.O.G",
+        "start": "15:00",
+        "end": "16:00"
+    },
+    {
+        "id": 298,
+        "stage": "Glade",
+        "day": "SUNDAY",
+        "artist": "CHANNEL ONE SOUND SYSTEM",
+        "start": "13:15",
+        "end": "14:30"
+    },
+    {
+        "id": 299,
+        "stage": "Glade",
+        "day": "SUNDAY",
+        "artist": "DON LETTS DJ SET",
+        "start": "12:00",
+        "end": "13:15"
+    },
+    {
+        "id": 300,
+        "stage": "Lonely Hearts Club",
+        "day": "THURSDAY",
+        "artist": "BAMBII B2B JARREAU VANDAL",
+        "start": "01:30",
+        "end": "03:00"
+    },
+    {
+        "id": 301,
+        "stage": "Lonely Hearts Club",
+        "day": "THURSDAY",
+        "artist": "P-RALLEL B2B ZACK FOX",
+        "start": "00:00",
+        "end": "01:30"
+    },
+    {
+        "id": 302,
+        "stage": "Lonely Hearts Club",
+        "day": "THURSDAY",
+        "artist": "NOORIYAH",
+        "start": "22:30",
+        "end": "00:00"
+    },
+    {
+        "id": 303,
+        "stage": "Lonely Hearts Club",
+        "day": "THURSDAY",
+        "artist": "MAJOR LEAGUE DJZ",
+        "start": "21:00",
+        "end": "22:30"
+    },
+    {
+        "id": 304,
+        "stage": "Lonely Hearts Club",
+        "day": "THURSDAY",
+        "artist": "CHANGING CURRENTS B2B FS GREEN",
+        "start": "19:30",
+        "end": "21:00"
+    },
+    {
+        "id": 305,
+        "stage": "Lonely Hearts Club",
+        "day": "THURSDAY",
+        "artist": "HITECH",
+        "start": "18:00",
+        "end": "19:30"
+    },
+    {
+        "id": 306,
+        "stage": "Lonely Hearts Club",
+        "day": "FRIDAY",
+        "artist": "AMELIE LENS",
+        "start": "01:30",
+        "end": "03:00"
+    },
+    {
+        "id": 307,
+        "stage": "Lonely Hearts Club",
+        "day": "FRIDAY",
+        "artist": "CAMELPHAT",
+        "start": "00:00",
+        "end": "01:30"
+    },
+    {
+        "id": 308,
+        "stage": "Lonely Hearts Club",
+        "day": "FRIDAY",
+        "artist": "FATBOY SLIM",
+        "start": "22:30",
+        "end": "00:00"
+    },
+    {
+        "id": 309,
+        "stage": "Lonely Hearts Club",
+        "day": "FRIDAY",
+        "artist": "VINTAGE CULTURE",
+        "start": "21:00",
+        "end": "22:30"
+    },
+    {
+        "id": 310,
+        "stage": "Lonely Hearts Club",
+        "day": "FRIDAY",
+        "artist": "RUDIM3NTAL",
+        "start": "20:00",
+        "end": "20:45"
+    },
+    {
+        "id": 311,
+        "stage": "Lonely Hearts Club",
+        "day": "FRIDAY",
+        "artist": "BASHY",
+        "start": "19:00",
+        "end": "19:45"
+    },
+    {
+        "id": 312,
+        "stage": "Lonely Hearts Club",
+        "day": "FRIDAY",
+        "artist": "SASHA KEABLE",
+        "start": "17:45",
+        "end": "18:45"
+    },
+    {
+        "id": 313,
+        "stage": "Lonely Hearts Club",
+        "day": "FRIDAY",
+        "artist": "BAWO",
+        "start": "16:15",
+        "end": "17:15"
+    },
+    {
+        "id": 314,
+        "stage": "Lonely Hearts Club",
+        "day": "FRIDAY",
+        "artist": "BRICKNASTY",
+        "start": "15:00",
+        "end": "16:00"
+    },
+    {
+        "id": 315,
+        "stage": "Lonely Hearts Club",
+        "day": "FRIDAY",
+        "artist": "RUBII",
+        "start": "14:00",
+        "end": "14:30"
+    },
+    {
+        "id": 316,
+        "stage": "Lonely Hearts Club",
+        "day": "FRIDAY",
+        "artist": "MOBO UNSUNG SHOWCASE",
+        "start": "12:00",
+        "end": "13:30"
+    },
+    {
+        "id": 317,
+        "stage": "Lonely Hearts Club",
+        "day": "SATURDAY",
+        "artist": "MOZEY",
+        "start": "01:45",
+        "end": "03:00"
+    },
+    {
+        "id": 318,
+        "stage": "Lonely Hearts Club",
+        "day": "SATURDAY",
+        "artist": "HYBRID MINDS",
+        "start": "00:15",
+        "end": "01:45"
+    },
+    {
+        "id": 319,
+        "stage": "Lonely Hearts Club",
+        "day": "SATURDAY",
+        "artist": "KOVEN",
+        "start": "23:00",
+        "end": "00:15"
+    },
+    {
+        "id": 320,
+        "stage": "Lonely Hearts Club",
+        "day": "SATURDAY",
+        "artist": "4 AM KRU",
+        "start": "21:45",
+        "end": "22:45"
+    },
+    {
+        "id": 321,
+        "stage": "Lonely Hearts Club",
+        "day": "SATURDAY",
+        "artist": "A.G. COOK",
+        "start": "20:30",
+        "end": "21:30"
+    },
+    {
+        "id": 322,
+        "stage": "Lonely Hearts Club",
+        "day": "SATURDAY",
+        "artist": "BIIG PIIG",
+        "start": "19:30",
+        "end": "20:30"
+    },
+    {
+        "id": 323,
+        "stage": "Lonely Hearts Club",
+        "day": "SATURDAY",
+        "artist": "FRANKIE STEW & HARVEY GUNN",
+        "start": "18:00",
+        "end": "19:00"
+    },
+    {
+        "id": 324,
+        "stage": "Lonely Hearts Club",
+        "day": "SATURDAY",
+        "artist": "MAVERICK SABRE",
+        "start": "16:30",
+        "end": "17:30"
+    },
+    {
+        "id": 325,
+        "stage": "Lonely Hearts Club",
+        "day": "SATURDAY",
+        "artist": "LUVCAT",
+        "start": "15:00",
+        "end": "16:00"
+    },
+    {
+        "id": 326,
+        "stage": "Lonely Hearts Club",
+        "day": "SATURDAY",
+        "artist": "HUMBLE THE GREAT",
+        "start": "13:30",
+        "end": "14:30"
+    },
+    {
+        "id": 327,
+        "stage": "Lonely Hearts Club",
+        "day": "SATURDAY",
+        "artist": "NAT OAKS",
+        "start": "12:00",
+        "end": "13:00"
+    },
+    {
+        "id": 328,
+        "stage": "Lonely Hearts Club",
+        "day": "SUNDAY",
+        "artist": "AZYR [TELETECH PRESENTS]",
+        "start": "01:00",
+        "end": "02:30"
+    },
+    {
+        "id": 329,
+        "stage": "Lonely Hearts Club",
+        "day": "SUNDAY",
+        "artist": "SIM0NE [TELETECH PRESENTS]",
+        "start": "23:30",
+        "end": "01:00"
+    },
+    {
+        "id": 330,
+        "stage": "Lonely Hearts Club",
+        "day": "SUNDAY",
+        "artist": "FASTER HORSES B2B MORGAN SEATREE [TELETECH PRESENTS...]",
+        "start": "22:00",
+        "end": "23:30"
+    },
+    {
+        "id": 331,
+        "stage": "Lonely Hearts Club",
+        "day": "SUNDAY",
+        "artist": "ELI BROWN",
+        "start": "20:30",
+        "end": "22:00"
+    },
+    {
+        "id": 332,
+        "stage": "Lonely Hearts Club",
+        "day": "SUNDAY",
+        "artist": "EMMA-JEAN THACKRAY",
+        "start": "18:30",
+        "end": "19:30"
+    },
+    {
+        "id": 333,
+        "stage": "Lonely Hearts Club",
+        "day": "SUNDAY",
+        "artist": "SNAPPED ANKLES",
+        "start": "17:00",
+        "end": "18:00"
+    },
+    {
+        "id": 334,
+        "stage": "Lonely Hearts Club",
+        "day": "SUNDAY",
+        "artist": "MERMAID CHUNKY",
+        "start": "15:30",
+        "end": "16:30"
+    },
+    {
+        "id": 335,
+        "stage": "Lonely Hearts Club",
+        "day": "SUNDAY",
+        "artist": "GARDNA: TIME TO MOVE",
+        "start": "14:00",
+        "end": "15:00"
+    },
+    {
+        "id": 336,
+        "stage": "Lonely Hearts Club",
+        "day": "SUNDAY",
+        "artist": "MUNGOS HI-FI FT EVA LAZARUS & AZIZA JAYE",
+        "start": "12:00",
+        "end": "14:00"
+    }
+]
